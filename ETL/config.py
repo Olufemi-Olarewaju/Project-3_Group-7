@@ -1,2 +1,2 @@
 # Geoapify API Key
-geoapify_key = "ae28033c9840426d872183721f0c86cb"
+geoapify_key = "8ec3ffe18e3849e099ba5be3d4176724"
