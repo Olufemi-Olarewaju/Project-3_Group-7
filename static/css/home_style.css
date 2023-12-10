@@ -1,27 +1,28 @@
 /* home_style.css */
 
 body {
-    background-color: #d2cedd;
-    font-family: 'Arial', sans-serif; 
+  background-color: #fff;
+  font-family: 'Arial', sans-serif; 
+}
+
+header {
+    background-color: #283618;
+    color: #fff; /* Set text color to white for better contrast */
+    padding: 10px; /* Add padding for better spacing */
+    text-align: center;
   }
-  
-  header {
-      background-color: #405a5c;
-      color: #fff; /* Set text color to white for better contrast */
-      padding: 10px; /* Add padding for better spacing */
-    }
 
-    .nav-button {
-      display: inline-block;
-      padding: 10px 20px;
-      text-decoration: none;
-      color: #fff;
-      background-color: #333;
-      border: 1px solid #333;
-      border-radius: 5px;
-      margin-right: 10px;
-    } 
+  .nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #bc6c25;
+    border: 1px solid #bc6c25;
+    border-radius: 5px;
+    margin-right: 10px;
+  } 
 
-    .nav-button:hover {
-      background-color: #555;
-    }
+  .nav-button:hover {
+    background-color: #dda15e;
+  }
