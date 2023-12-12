@@ -18,7 +18,6 @@ We sought to answer the following questions with this interactive dashboard:
 - Which type of institution had the most outbreaks over the time period?
 - Can we identify any trends in outbreaks by season?
 - Can we identify trends in outbreaks over the entire time period?
-- Which institutions have the longest and shortest average outbreak duration?
 
 
 ## Data Collection
@@ -27,7 +26,7 @@ Data was retrieved from Toronto Open Data's [Outbreaks in Toronto Healthcare Ins
 
 ## Data Cleaning and Database Creation
 
-After retrieving the data from CSV files and from the Geoapify API, the data was cleaned using python and Pandas. With python and the psycopg2 module, a PostgreSQL database was created to house the clean data.
+After retrieving the data from CSV files and from the Geoapify API, the data was cleaned using python and Pandas. With python and the psycopg2 module, a PostgreSQL database was created to house the clean data in tables.
 
 ## Flask API
 
@@ -35,4 +34,4 @@ A Flask API was built with routes allowing us to retrieve the jsonified data fro
 
 ## Interactive Dashboard
 
-The map and charts in the dashboard were created using Javascript, Plotly, and Leaflet. Users can interact with the dashboard by toggling layers in the map and by selecting years in a drop-down field, allowing them to view the data for their preferred time period.
+The map and charts in the dashboard were created using Javascript, Plotly, Chart.js, and Leaflet. Users can interact with the dashboard by toggling layers in the map and by selecting years or outbreak types in a drop-down field, allowing them to view the data for their preferred time period or type of outbreak.

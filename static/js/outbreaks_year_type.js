@@ -125,9 +125,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Define colors for each outbreak type
         var colorMap = {
             
-            'Enteric': '#3569c8',
-            'Respiratory': 'green',
-            'Other': 'orange'
+            'Enteric': '#333d29',
+            'Respiratory': '#a4ac86',
+            'Other': '#936639'
         };
 
         // Return the color for the specified outbreak type
